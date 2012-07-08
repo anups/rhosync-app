@@ -1,0 +1,22 @@
+#Sources
+:sources:
+  Project:
+    :poll_interval: 300
+  Developer:
+    :poll_interval: 300
+  Product:
+    :poll_interval: 300
+    :partition_type: app
+
+:development:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+:test:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+:production:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
